@@ -29,7 +29,7 @@ ys = np.empty(num_steps + 1)
 zs = np.empty(num_steps + 1)
 
 # Set initial values
-xs[0], ys[0], zs[0] = (0., 1., 1.05)
+xs[0], ys[0], zs[0] = (10.0, 2.67, 28)
 
 # Step through "time", calculating the partial derivatives at the current point
 # and using them to estimate the next point
